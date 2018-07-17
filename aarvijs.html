@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="aarvijs.css">
+	<script type="text/javascript" src="aarvijs.js"></script>
+	<style type="text/css"></style>
+</head>
+<body>
+	<p id="demo"></p>
+	<script>
+		var text = "";
+		var person = {
+			fname:"ravinder",
+			lname:"sharma",
+			age:28
+		};
+		var x;
+		for (x in person) {
+			text += person[x] + " ";
+		}
+		document.getElementById("demo").innerHTML = text;
+	</script>
+</body>
+</html>
